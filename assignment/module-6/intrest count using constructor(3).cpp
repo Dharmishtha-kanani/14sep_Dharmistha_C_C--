@@ -23,7 +23,7 @@ class intrest
     }
     void display()
     {
-        cout<<" intrest is"<<si<<endl;
+        cout<<" simple intrest is"<<si<<endl;
        
         
     }
@@ -34,7 +34,7 @@ int main()
     float rate;
     cout<<"enter the principal,year,rate"<<endl;
     cin>>principal>>year>>rate;
-    intrest obj(principal,year,rate);
+    intrest obj(principal,year,rate);//creat object
     obj .display();
     return 0;
 }
